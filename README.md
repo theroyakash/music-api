@@ -5,9 +5,9 @@
 Sophisticated music search API for free. Unlimited calls for search on Apple Music and 1000 daily calls for search on YouTube.
 
 # Make your apps with Music API
-### URL
+## Main URL
 `GET https://getmusic.theroyakash.repl.co/api/{service_name}/v1?q={search_term}`.
-### YouTube Search
+## YouTube Search
 Get the top YouTube Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on YouTube, URL should look like this:
 `GET https://getmusic.theroyakash.repl.co/api/youtube/v1?q=Past+life+by+selena+Gomez`
@@ -22,7 +22,7 @@ For example to get Past life by Selena Gomez search on YouTube, URL should look 
    "Attribute":"API Made possible by @theroyakash"
 }
 ```
-### Apple Music Search
+## Apple Music Search
 Get the top Apple Music Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on Apple Music, URL should look like this:
 `GET https://getmusic.theroyakash.repl.co/api/applemusic/v1?q=Past+life+by+selena+Gomez`
