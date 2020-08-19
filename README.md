@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Spohisticated music search API for free. Unlimited calls for search on Apple Music and 1000 daily calls for search on YouTube.
+Sophisticated music search API for free. Unlimited calls for search on Apple Music and 1000 daily calls for search on YouTube.
 
 # Make your apps with Music API
 ### URL
