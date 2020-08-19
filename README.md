@@ -10,6 +10,7 @@ Sophisticated music search API for free. Unlimited calls for search on Apple Mus
 ## YouTube Search
 Get the top YouTube Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on YouTube, URL should look like this:
+
 `GET https://getmusic.theroyakash.repl.co/api/youtube/v1?q=Past+life+by+selena+Gomez`
 ### Returns
 ```JSON
@@ -25,6 +26,7 @@ For example to get Past life by Selena Gomez search on YouTube, URL should look 
 ## Apple Music Search
 Get the top Apple Music Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on Apple Music, URL should look like this:
+
 `GET https://getmusic.theroyakash.repl.co/api/applemusic/v1?q=Past+life+by+selena+Gomez`
 ### Returns
 ```JSON
