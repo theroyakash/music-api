@@ -9,12 +9,12 @@ Sophisticated music search API for free. Unlimited calls for search on Apple Mus
 
 # Make your apps with Music API
 ### Main URL
-`GET https://getmusic.theroyakash.repl.co/api/{service_name}/v1?q={search_term}`.
+`GET https://theroyakashapis.herokuapp.com/{service_name}/v1?q={search_term}`.
 ## YouTube Search
 Get the top YouTube Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on YouTube, URL should look like this:
 
-`GET https://getmusic.theroyakash.repl.co/api/youtube/v1?q=Past+life+by+selena+Gomez`
+`GET https://theroyakashapis.herokuapp.com/youtube/v1?q=Past+life+by+selena+Gomez`
 ### Returns
 ```JSON
 {
@@ -30,7 +30,7 @@ For example to get Past life by Selena Gomez search on YouTube, URL should look 
 Get the top Apple Music Search result. Make you queries' words seperated by +. For example for searching Slow dance ava max you should add the quiry string as `Slow+dance+ava+max` at the end of URL. 
 For example to get Past life by Selena Gomez search on Apple Music, URL should look like this:
 
-`GET https://getmusic.theroyakash.repl.co/api/applemusic/v1?q=Past+life+by+selena+Gomez`
+`GET https://theroyakashapis.herokuapp.com/applemusic/v1?q=Past+life+by+selena+Gomez`
 ### Returns
 ```JSON
 {
@@ -81,7 +81,7 @@ class Music: Codable {
 GET the data:
 ```python
 import requests, json
-get = requests.get('https://getmusic.theroyakash.repl.co/api/youtube/v1?q=Past+life+by+selena+Gomez').json()
+get = requests.get('https://theroyakashapis.herokuapp.com/youtube/v1?q=Past+life+by+selena+Gomez').json()
 ```
 Now use this as a boiler plate code to parse.
 ```python
